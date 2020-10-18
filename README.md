@@ -1,6 +1,6 @@
 # Back End Discord CPA Portfolio
 
-A discord bot made thanks to Discord.py, where after an user us an specifict commad , it sends an Direct Message with a Token
+A discord bot made thanks to Discord.py, where after an user us a specifict commad , it sends an Direct Message with a Token
 
 This is the a Discord bot of a CPA business model I came up a couple of month ago , the main idea is to Keep a Group of loyal users using the popular platform Discord.com , in this platform we will have this discord bot working 24h/7 that it will generate a Token which is later put in a website.
 
