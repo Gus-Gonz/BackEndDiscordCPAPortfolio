@@ -16,6 +16,19 @@ I used Ogads.com as my main CPA network and with free traffic we manege to get a
 
 # Before deployment
 
-In case you want to use this bot, you will need to provide the ID of your discord account and you need to generate a token for the dicord bot in the config/config_discord.py before hosting it, you can get the token of your bot from their official site https://discord.com/developers/applications ( you would need an account in their platform to apply)
+In case you want to use this bot, you will need to provide the ID of your discord account , the link to your generator site and you need to generate a token for the dicord bot in the config/config_discord.py before hosting it, you can get the token of your bot from their official site https://discord.com/developers/applications ( you would need an account in their platform to apply)
 
 This Business model host a DB using the online and free service Mongodb.com , there for you will need to provide the Client details , the cluster name and the colection name in the config/config_mongo.py before hosting it , for more info about the functionality of MongoDB use their official documentation https://docs.mongodb.com/
+
+
+# Commands
+
+!! is the prefit stabiced by default in the bot , it can be changed in the line 74 of the Discord_Bot.py file
+
+- !!helpme -> Lists all commands 
+- !!stock <AccountName> -> Returns a DM with the token , a serie of instructions and the link to the website 
+  
+This commads are only going to work with your account 
+
+- !!addstock < typeOfAccount>email:pass > (example: !!addstock spotify>Hello123@Gmail.com:12341234 )
+- !!delstock < typeOfAccount>NumberOfAccountToErase > (example: !!delstock spotify>5 )
