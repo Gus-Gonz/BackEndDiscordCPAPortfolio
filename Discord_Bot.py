@@ -1,7 +1,7 @@
 import discord, random, string
 from discord.ext import commands
 import DB_Hand_Mongo
-from config.config_discord import token_discord_bot ,your_discord_account_id , account_available_in_gen
+from config.config_discord import token_discord_bot ,your_discord_account_id , account_available_in_gen , website_link
 
 
 
@@ -62,7 +62,7 @@ def embed_dm(author, Token):
                              color=discord.Color.orange())
     embed_dm.add_field(name="Your Token", value=Token)  # AQUI VA EL LINK
     embed_dm.add_field(name='Instructions',
-                       value='1) Go to https://backendflaskfordiscord.herokuapp.com/ \n2)Put the token and Click in "SUBMIT" \n3) Complete 1 ad \n4) Congratulation you got a brand new account, ENJOY !!')
+                       value='1) Go to {website} \n2)Put the token and Click in "SUBMIT" \n3) Complete 1 ad \n4) Congratulation you got a brand new account, ENJOY !!'.format(website_link))
     # embed_dm.set_thumbnail(url=url_img)
     return embed_dm
 
