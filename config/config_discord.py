@@ -1,6 +1,7 @@
 token = "THE TOKEN SELIVERED BY DISCORD TO ALLOW YOU TO HAVE A DISCORD BOT"
 your_discord_account_id = "THE ID TAHT BELONGS TO YOUR DISOCRD ACCOUNT"
 account_available_in_gen = ['spotify','tidal', 'nord', 'crunchyroll', 'hulu','disney','funimation','hbomax','wwe','pornhub']
+website_link = "YOUR WEBSITE LINK TO THE GENERATOR LANDING PAGE"
 
 
 """"
