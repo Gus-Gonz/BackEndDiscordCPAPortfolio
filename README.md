@@ -6,7 +6,7 @@ This is the a Discord bot of a CPA business model I came up a couple of month ag
 
 this website makes an animation and CPA offer should pop up and block the ussers to get the Account they came looking for unless they complete 1 Ad.
 
-# The Discord Bot
+# The Generator Landing Page
 
 The repository of the Landing Page can be found here >> https://github.com/Gus-Gonz/FrontEndCPAPortfolio 
 
