@@ -23,7 +23,7 @@ This Business model host a DB using the online and free service Mongodb.com , th
 
 # Commands
 
-!! is the prefit stabiced by default in the bot , it can be changed in the line 74 of the Discord_Bot.py file
+!! is the prefix established by default in the bot , it can be changed in the line 74 of the Discord_Bot.py file
 
 - !!helpme -> Lists all commands 
 - !!stock <AccountName> -> Returns a DM with the token , a serie of instructions and the link to the website 
